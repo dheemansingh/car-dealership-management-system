@@ -3,7 +3,7 @@ while True:
     con = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="dheeman",
+        password="YOUR_PASSWORD",
         database="car_dealership"
     )
     cursor = con.cursor()
